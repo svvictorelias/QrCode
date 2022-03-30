@@ -20,6 +20,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 - Media Query CSS
 
-
+### What I  learned
+- Think about responsiveness
+- Understand Media Query
+- CSS classes and inheritance
 ## Author
 - Linkedin - [@svvictorelias](https://www.linkedin.com/in/svvictorelias/)
