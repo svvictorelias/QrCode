@@ -50,9 +50,6 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-main img:hover{
-    box-shadow: 5px 5px 15px rgba(0, 60, 255, 0.4);
-}
 
 @media only screen and (max-height: 650px){
     main{
@@ -61,6 +58,7 @@ main img:hover{
         text-align: left;
         display: flex;
         align-items: center;
+        margin-bottom: 20px;
     }
     main img{
         width: 30%;
@@ -78,6 +76,13 @@ main img:hover{
         padding-top: 20px;
     }
 }
+@media only screen and (max-height: 710px){
+    .attribution{
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}
+
 @media only screen and (max-width: 420px){
     main{
         width: 80%;
@@ -93,5 +98,11 @@ main img:hover{
     }
     main{
         width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    main{
+        width: 1200px;
     }
 }
